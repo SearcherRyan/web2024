@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: rgb(228, 190, 223);
+    background-color: rgb(255, 131, 131);
     font-family: "Audiowide", sans-serif;
 }
 
@@ -48,9 +48,11 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    transition:  color 3s, font-size 120s;
+    color:rgb(0, 255, 34);
     background-color: transparent;
     text-decoration: underline;
+    font-size: 2px;
 }
 
 a:active {
